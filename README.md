@@ -1,4 +1,4 @@
 homebrew-repo
 =============
 
-The repository containing HomeBrew formulas for custom software or opinionated setups.
+The repository containing HomeBrew formulas for custom software.
