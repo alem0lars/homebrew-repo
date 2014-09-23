@@ -12,4 +12,8 @@ class Antigen < Formula
     system 'antigen', '-h'
   end
 
+  def install
+    libexec.install 'v1.tar.gz'
+  end
+
 end
