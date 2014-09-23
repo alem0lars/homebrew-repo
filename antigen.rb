@@ -13,7 +13,13 @@ class Antigen < Formula
   end
 
   def install
-    libexec.install "antigen-#{version}.tar.gz"
+    prefix.install Dir['*.zsh']
+  end
+
+  def caveats; <<-EOS.undent
+    To use antigen, add the following line to your ~/.zshrc:
+    source #{File.join(prefix, 'antigen.zsh')}
+    EOS
   end
 
 end
