@@ -13,7 +13,7 @@ class Antigen < Formula
   end
 
   def install
-    libexec.install 'v1.tar.gz'
+    libexec.install "antigen-#{version}.tar.gz"
   end
 
 end
