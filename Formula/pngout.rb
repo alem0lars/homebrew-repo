@@ -4,7 +4,7 @@ require "formula"
 class Pngout < Formula
   homepage "http://www.advsys.net/ken/util/pngout.htm"
   url "http://static.jonof.id.au/dl/kenutils/pngout-20130221-darwin.tar.gz"
-  md5 "2f35b7369d5ab668cea414772de6fba9"
+  sha1 "b171acb6f40bba8e31474857c6cbd3b5dd30b272"
 
   def install
     bin.install "pngout"
