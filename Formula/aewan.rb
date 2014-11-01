@@ -1,5 +1,6 @@
 require "formula"
 
+
 class Aewan < Formula
   homepage "http://aewan.sourceforge.net/"
   url      "http://downloads.sourceforge.net/project/aewan/aewan/aewan-1.0.01/aewan-1.0.01.tar.gz?r=http%3A%2F%2Faewan.sourceforge.net%2Fdownload.html&ts=1414840485&use_mirror=kent"
@@ -12,3 +13,4 @@ class Aewan < Formula
     system "make install"
   end
 end
+
