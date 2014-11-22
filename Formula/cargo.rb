@@ -5,6 +5,7 @@ class Cargo < Formula
   url "https://github.com/rust-lang/cargo/archive/master.tar.gz"
   version "latest"
   head "https://github.com/rust-lang/cargo.git", using: :git
+  sha1 "afe9b5ed054f04304209e211d62fa1063310cb9d"
 
   depends_on "rust"
 
