@@ -4,7 +4,7 @@ require 'formula'
 class Fizzy < Formula
   homepage 'https://github.com/alem0lars/fizzy'
   url      'https://github.com/alem0lars/fizzy/archive/1.6.0.tar.gz'
-  sha256   '5e1b50a69ea5cfb3c8f6fd93e45484e21bc3a0859a56ee3f104952292a56f8d8'
+  sha256   '50dd0275db2bb9bbc4255a11b45ee8f699690018b03dfc1162618923cc44b6e3'
   version  '1.6.0'
   head     'https://github.com/alem0lars/fizzy.git', using: :git
 
