@@ -9,11 +9,11 @@ class Fizzy < Formula
   head     'https://github.com/alem0lars/fizzy.git', using: :git
 
   test do
-    system bin/'fizzy', 'help'
+    system bin/'build/fizzy', 'help'
   end
 
   def install
-    prefix.install 'fizzy'
+    prefix.install 'build/fizzy'
     fizzy = prefix + 'fizzy'
 
     fizzy.chmod 0755
