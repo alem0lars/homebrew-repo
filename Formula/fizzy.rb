@@ -3,9 +3,9 @@ require 'formula'
 
 class Fizzy < Formula
   homepage 'https://github.com/alem0lars/fizzy'
-  url      'https://github.com/alem0lars/fizzy/archive/1.7.0.tar.gz'
-  sha256   'c318f9af7fe066f9b2ab40800ce0bb9d5e32f52e80ed8dcfa92c643d65f26648'
-  version  '1.7.0'
+  url      'https://github.com/alem0lars/fizzy/archive/v2.2.0.tar.gz'
+  sha256   '6254cd4bbf939bf9a0fa43a56879bacba062b7a79450d1f245ea722566c5bedf'
+  version  '2.2.0'
   head     'https://github.com/alem0lars/fizzy.git', using: :git
 
   test do
